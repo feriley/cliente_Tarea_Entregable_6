@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Ejercicio 6 </title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form id="contactForm">
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+        <small id="errorAsunto" class="error"></small>
+
+        <label for="cc">CC:</label>
+        <input type="email" id="cc" name="cc">
+        <small id="errorCC" class="error"></small>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <small id="errorMensaje" class="error"></small>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
